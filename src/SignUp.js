@@ -27,6 +27,7 @@ export default class SignUp extends Component {
     render() {
         return (//forms always need a handleSubmit and onChange
             <div>
+                <h2>Sign Up Here</h2>
                 <form onSubmit={this.handleSubmit}>
                     <label>Email:
                         <input
